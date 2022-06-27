@@ -1,0 +1,18 @@
+# main
+fastapi
+uvicorn
+
+#templates
+jinja2==3.0.0
+
+#static files
+aiofiles
+
+# db
+sqlalchemy
+psycopg2
+databases
+asyncpg #For postgres async support
+
+# env variables
+python-dotenv
