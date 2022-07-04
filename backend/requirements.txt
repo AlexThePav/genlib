@@ -14,5 +14,11 @@ psycopg2
 databases
 asyncpg #For postgres async support
 
+# for email validation
+pydantic[email]
+
 # env variables
 python-dotenv
+
+# hashing
+passlib[bcrypt]
